@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=960" />
+    <title>Portfolio Website: HOME</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/site.webmanifest" />
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <nav class="navbar">
+          <a href="/" class="nav-brand">TC</a>
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="index.html" class="navlink"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="navlink"
+                >ABOUT</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="book.html" class="navlink"
+                >BOOK</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="portfolio.html" class="navlink"
+                >PORTFOLIO</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="navlink"
+                >CONTACT</a
+              >
+            </li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="bubble-text">
+    <h1><span class="typing-text">HELLO, MY NAME IS TE'ONVION COLLINS!</span></h1>
+  </div>
+  <img class="rocket" src="images/rocket.png" alt="">
+    <span class="circle">
+      <img class="bubble" src="images/speech-bubble.png" alt="">
+      <img class="me" src="images/animated-me.png" alt="animated image of business owner">
+    </div>
+    </span>
+    <div class="box">
+      <h1>LAUNCH YOUR VISION WITH</h1>
+      <h2><span class="gradient-text">TC WEB DESIGN SERVICES!</span></h2>
+      <p>NEED A WEBSITE PROMOTING YOURSELF, YOUR BUSINESS, OR EVENT? THIS IS THE
+        PLACE!</p>
+    </div>
+    <div class="index-buttons">
+    <button
+      class="book-btn"
+      type="button"
+      onclick="window.location.href='book.html';"
+    >
+      BOOK NOW
+    </button>
+    <button
+      class="portfolio-btn"
+      type="button"
+      onclick="window.location.href='portfolio.html';"
+    >
+      PORTFOLIO
+    </button>
+  </div>
+  <div class="pp-link">
+    <a href="privacy.html">PRIVACY POLICY</a>
+  </div>
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const navMenu = document.querySelector(".nav-menu");
+
+      hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+      });
+
+      document.querySelectorAll(".navlink").forEach((n) =>
+        n.addEventListener("click", () => {
+          hamburger.classList.remove("active");
+          navMenu.classList.remove("active");
+        })
+      );
+    </script>
+  </body>
+</html>
