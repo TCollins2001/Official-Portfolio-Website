@@ -442,6 +442,7 @@
       padding: 5px;
       position: relative;
       top: 580px;
+      right: 10px;
     }
 
     .book-pp-link a {
@@ -504,6 +505,7 @@
       padding: 5px;
       position: relative;
       top: 80px;
+      right: 10px;
       background-color: white;
     }
 
@@ -580,6 +582,7 @@
       padding: 5px;
       position: relative;
       top: 200px;
+      right: 10px;
       background-color: white;
     }
 
@@ -639,6 +642,7 @@
       padding: 5px;
       position: relative;
       top: 160px;
+      right: 10px;
       background-color: white;
     }
 
@@ -804,7 +808,7 @@
     .pp-link {
       position: absolute;
       bottom: 0;
-      right: 0;
+      right: 10px;
       padding: 5px;
       background-color: white;
     }
@@ -1094,6 +1098,7 @@
       padding: 5px;
       position: relative;
       top: 580px;
+      right: 10px;
     }
 
     .book-pp-link a {
@@ -1156,6 +1161,7 @@
       padding: 5px;
       position: relative;
       top: 80px;
+      right: 10px;
       background-color: white;
     }
 
@@ -1232,6 +1238,7 @@
       padding: 5px;
       position: relative;
       top: 200px;
+      right: 10px;
       background-color: white;
     }
 
@@ -1291,6 +1298,7 @@
       padding: 5px;
       position: relative;
       top: 160px;
+      right: 10px;
       background-color: white;
     }
 
@@ -1455,7 +1463,7 @@
     .pp-link {
       position: absolute;
       bottom: 0;
-      right: 0;
+      right: 10px;
       padding: 5px;
       background-color: white;
     }
@@ -1742,6 +1750,7 @@
       padding: 5px;
       position: relative;
       top: 580px;
+      right: 10px;
     }
 
     .book-pp-link a {
@@ -1804,6 +1813,7 @@
       padding: 5px;
       position: relative;
       top: 80px;
+      right: 10px;
       background-color: white;
     }
 
@@ -1880,6 +1890,7 @@
       padding: 5px;
       position: relative;
       top: 300px;
+      right: 10px;
       background-color: white;
     }
 
@@ -1934,6 +1945,7 @@
       padding: 5px;
       position: relative;
       top: 130px;
+      right: 10px;
     }
 
     .pp-pp-link a {
@@ -2383,7 +2395,7 @@
       padding: 5px;
       position: relative;
       top: 30px;
-      left: -10px;
+      right: 10px;
     }
 
     .book-pp-link a {
@@ -2439,7 +2451,7 @@
       padding: 5px;
       position: relative;
       top: 80px;
-      left: -10px;
+      right: 10px;
     }
 
     .port-pp-link a {
@@ -2519,7 +2531,7 @@
       padding: 5px;
       position: relative;
       top: 268px;
-      left: -10px;
+      right: 10px;
     }
 
     .contact-pp-link a {
