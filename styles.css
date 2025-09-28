@@ -278,9 +278,11 @@
     }
     
     .pp-link {
-      margin-top: 100px;
+      float: right;
       padding: 5px;
-      text-align: center;
+      position: relative;
+      top: 80px;
+      right: 10px;
       background-color: white;
     }
 
