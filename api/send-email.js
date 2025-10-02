@@ -9,7 +9,7 @@ const mg = mailgun.client({
 
 export default async function handler(req, res) {
 
-res.setHeader("Access-Control-Allow-Origin", "https://tc-web-designs.com/");
+res.setHeader("Access-Control-Allow-Origin", "https://tc-web-designs.com");
 res.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
 res.setHeader("Access-Control-Allow-Headers", "Content-Type");
 
@@ -21,10 +21,10 @@ if (req.method === "OPTIONS") {
 
   const { firstName, lastName, userEmail, PrefPref, comments } = req.body;
 
-  const domain = "tc-web-designs.com/";
+  const domain = "tc-web-designs.com";
   
     const businessEmailData = {
-      from: "TC WEB DESIGN SERVICES <postmaster@tc-web-designs.com/>",
+      from: "TC WEB DESIGN SERVICES <postmaster@tc-web-designs.com>",
       to: "teonvioncollins@gmail.com",
       subject: "New Website Request Received",
         html: `
@@ -72,7 +72,7 @@ if (req.method === "OPTIONS") {
 
 
     const userEmailData = {
-      from: "TC WEB DESIGN SERVICES <postmaster@tc-web-designs.com/>",
+      from: "TC WEB DESIGN SERVICES <postmaster@tc-web-designs.com>",
       to: userEmail,
       subject: "Your Website Request Confirmation",
       html: `
