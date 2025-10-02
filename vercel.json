@@ -1,10 +1,8 @@
 {
-  "rewrites": [
-    { "source": "/home", "destination": "/index.html" },
-    { "source": "/about", "destination": "/about.html" },
-    { "source": "/book", "destination": "/book.html" },
-    { "source": "/portfolio", "destination": "/portfolio.html" },
-    { "source": "/contact", "destination": "/contact.html" },
-    { "source": "/privacy", "destination": "/privacy.html" }
+  "version": 2,
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/home", "destination": "/", "permanent": true }
   ]
 }
