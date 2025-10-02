@@ -20,7 +20,7 @@ if (req.method === "OPTIONS") {
 
       await resend.emails.send({
       from: "TC WEB DESIGN SERVICES <postmaster@tc-web-designs.com>",
-      to: "teonvioncollins@gmail.com",
+      to: "tcwebdesignservices@gmail.com",
       subject: "New Website Request Received",
         html: `
           <div style="background: linear-gradient(135deg, #ef4136, #fbb040); color: white; text-align: center; padding: 15px;">
