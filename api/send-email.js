@@ -29,7 +29,6 @@ if (req.method === "OPTIONS") {
   </h2>
   </div>
     
-    <!-- Email Body -->
     <div style="padding: 20px;">
       <p style="font-size: 16px;">A new website request has been submitted.</p>
 
@@ -55,7 +54,6 @@ if (req.method === "OPTIONS") {
       <p style="margin-top: 20px; font-size: 16px;">Please follow up with the customer to confirm and process the order.</p>
     </div>
 
-    <!-- Footer -->
     <div style="background: linear-gradient(135deg, #ef4136, #fbb040); color: white; text-align: center; padding: 10px; font-size: 14px;">
       <p style="margin: 0;">TC WEB DESIGN SERVICES</p>
       <p style="margin: 0; color: #FFFFFF">Email: tcwebdesignservices@gmail.com</p>
@@ -77,7 +75,6 @@ if (req.method === "OPTIONS") {
   </h2>
   </div>
   
-  <!-- Email Body -->
   <div style="padding: 20px;">
     <p style="font-size: 16px;">Hi ${firstName},</p>
     
@@ -110,7 +107,6 @@ if (req.method === "OPTIONS") {
     <p style="font-size: 16px;">TC WEB DESIGN SERVICES</p>
   </div>
   
-  <!-- Footer -->
   <div style="background: linear-gradient(135deg, #ef4136, #fbb040); color: white; text-align: center; padding: 10px; font-size: 14px;">
     <p style="margin: 0;">TC WEB DESIGN SERVICES</p>
       <p style="margin: 0; color: #FFFFFF">Email: tcwebdesignservices@gmail.com</p>
